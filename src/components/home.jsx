@@ -1,12 +1,12 @@
 import React from 'react';
-import heroimage from '../assets/profile.png';
+import heroimage from '../assets/profile1.png';
 import { TypeAnimation } from "react-type-animation";
 
-const Hero = () => {
+const Home = () => {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] h-[70vh] mx-auto py-8 bg-black'>
         <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]' >
-            <img src={heroimage} alt="hero image" className='rounded-full w-[200px] h-[200px] object-cover ml-10' />
+            <img src={heroimage} alt="heroimage" className='rounded-full w-[200px] h-[200px] object-cover ml-10' />
         </div>
         <div className='col-span-2 px-5 my-auto'>
             <h1 className='text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold'>
@@ -43,4 +43,4 @@ const Hero = () => {
   )
 }
 
-export default Hero;
+export default Home;

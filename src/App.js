@@ -1,11 +1,11 @@
 import Navbar from "./components/navbar.jsx"
-import Hero from "./components/hero.jsx";
 import Skills from "./components/Skills.jsx"
 import About from "./components/About.jsx"
 import Work from "./components/Work.jsx"
 import Contact from "./components/Contact.jsx"
 import Footer from "./components/Footer.jsx"
 import ScrollToTop from './components/ScrollToTop';
+import Home from "./components/home.jsx";
 
 
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Hero/>
+      <Home/>
       <Skills/>
       <About/>
       <Work/>
