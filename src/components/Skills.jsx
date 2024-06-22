@@ -12,23 +12,23 @@ const Skills = () => {
         <h2 className='text-gray-700 text-2xl md:text-4xl font-bold m-4'>
             My <br />Tech <b> Stack</b>
         </h2>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[30px] md:w-[100px]'>
+        <div className=' transform transition-transform duration-300 hover:scale-105 flex flex-col items-center m-4 sm:my-0 w-[30px] md:w-[70px]'>
             <img src={htmls} alt="" />
             <p className='mt-2'>HTML</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+        <div className=' transform transition-trasnsform duration-300 hover:scale-105 flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={css} alt="" />
             <p className='mt-2'>CSS</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+        <div className='transform transition-transform duration-300 hover:scale-105 flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={react} alt="" />
             <p className='mt-2'>REACT</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+        <div className=' transform transition-transform duration-300 hover:scale-105 flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={tailwind} alt="" />
             <p className='mt-2'>TAILWIND</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+        <div className='transform transiton-transform duration-300 hover:scale-105 flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={javascript} alt="" />
             <p className='mt-2'>JAVASCRIPT</p>
         </div>
