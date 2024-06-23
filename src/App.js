@@ -6,6 +6,7 @@ import Contact from "./components/Contact.jsx"
 import Footer from "./components/Footer.jsx"
 import ScrollToTop from './components/ScrollToTop';
 import Home from "./components/home.jsx";
+import Experience from "./components/experience.jsx";
 
 
 
@@ -17,9 +18,12 @@ function App() {
       <Skills/>
       <About/>
       <Work/>
+      <Experience/>
       <Contact/>
       <Footer/>
       <ScrollToTop/>
+     
+
 
 
 
