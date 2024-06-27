@@ -15,7 +15,9 @@ const Navbar = () => {
                 <ul className="hidden md:flex ">
                     <li className="p-5 hover:text-gray-700 font-bold"><a href="#about">About</a></li>
                     <li className="p-5 hover:text-gray-700 font-bold"><a href="#work">Work</a></li>
+                    <li className="p-5 hover:text-gray-700 font-bold"><a href="#experience">Experience</a></li>
                     <li className="p-5 hover:text-gray-700 font-bold"><a href="#contact">Contact</a></li>
+                    
                 </ul>
                 <div onClick={handleNav} className="block md:hidden mr-6">
                     {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -26,9 +28,9 @@ const Navbar = () => {
                                      : 'fixed left-[-100%]'}>
                 <h1 className="text-3xl primary-color m-4">Lenorcon</h1>
                 <ul className="p-8 text-2xl">
-                    <li className="p-2 hover:text-gray-700"><a href="#home">Home</a></li>
-                    <li className="p-2 hover:text-gray-700"><a href="#about">About</a></li>
-                    <li className="p-2 hover:text-gray-700"><a href="#work">Work</a></li>
+                <li className="p-2 hover:text-gray-700"><a href="#work">Work</a></li>
+                <li className="p-2 hover:text-gray-700"><a href="#about">About</a></li>
+                <li className="p-2 hover:text-gray-700"><a href="#experience">Experience</a></li>
                 </ul>
             </div>
         </div>
