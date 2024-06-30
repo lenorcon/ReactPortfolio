@@ -6,7 +6,6 @@ const Contact = () => {
         <div className='text-center'>
             <h2 class="text-4xl font-bold leading-tight primary-color">Contact me</h2>
         </div>
-
         <div class="max-w-[800px] mx-auto">
             <div class="mt-6 bg-[#161616] rounded-xl">
                 <div class="pb-10">
