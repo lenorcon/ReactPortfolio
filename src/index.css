@@ -12,3 +12,38 @@ body{
 .bg-primary-color{
   @apply bg-gradient-to-r from-orange-400 to-pink-600 inline-block; 
 }
+
+.imagesize{
+  @apply rounded-full w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] md:w-[300px] md:h-[300px] lg:w-[280px] lg:h-[280px] object-cover
+}
+.re-size{
+ @apply grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] h-auto sm:h-[70vh] mx-auto py-8 bg-black
+}
+.re-size1{
+  @apply bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border border-gray-700 rounded-md
+  focus:outline-none focus:border-pink-600
+}
+.re-size3{
+  @apply mt-10 border border-gray-700 rounded-lg bg-white max-w-[1200px] mx-auto text-gray-700 items-center
+}
+.re-size4{
+  @apply px-6 py-3 w-full sm:w-auto rounded-xl border border-gray-400 hover:bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:border-none
+}
+.re-size5{
+  @apply px-6 py-3 w-full sm:w-auto rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white
+}
+.re-size6{
+  @apply bg-black text-gray-400 h-[100px] max-w-[1200px] mx-auto flex justify-between items-center
+}
+.re-size7{
+  @apply p-3 rounded-full bg-blue-600 text-white shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 mb-10
+}
+.re-size8{
+  @apply border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-2 sm:grid-cols-3 place-items-center md:flex md:justify-between md:items-center p-4
+}
+.re-size9{
+  @apply transform transition-transform duration-300 hover:scale-105 flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]
+}
+.re-size10{
+  @apply transform transition-transform duration-300 hover:scale-105 flex flex-col items-center m-4 sm:my-0 w-[30px] md:w-[70px]
+}
