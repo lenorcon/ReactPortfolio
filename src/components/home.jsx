@@ -31,7 +31,7 @@ const Home = () => {
           My name is Lenor Con and I have experience in web development
         </p>
         <div className='flex flex-wrap gap-4'>
-          <a href="/" className='re-size5'>
+          <a href="/" className='re-size4'>
             Download CV
           </a>
           <a href="/" className='re-size4'>
