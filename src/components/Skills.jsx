@@ -9,7 +9,7 @@ import bootstrap from '../assets/bootstrap.png'
 
 const Skills = () => {
   return (
-    <div className='re-size8'>
+    <div className='re-size8 '>
       <h2 className='text-gray-700 text-2xl md:text-4xl font-bold m-4 col-span-2 sm:col-span-1'>
         My <br />Tech <b> Stack</b>
       </h2>
